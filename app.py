@@ -97,7 +97,7 @@ with tab1:
 with tab2:
     with st.form("add_movie_form"):
         new_title = st.text_input("Movie Title")
-        new_platform = st.selectbox("Platform", ["Netflix", "Hulu", "Disney+", "Max", "Prime Video", "DVD/BluRay", "Other"])
+        new_platform = st.selectbox("Platform", ["Netflix", "Hulu", "Disney+", "Max", "Prime Video", "Apple TV","Home Library", "Other"])
         submitted = st.form_submit_button("Add to Database")
         
         if submitted and new_title:
